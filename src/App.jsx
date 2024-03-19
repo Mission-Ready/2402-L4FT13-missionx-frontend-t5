@@ -16,6 +16,7 @@ import SubmitProject from "./pages/StudentDashboard/SubmitProject";
 import ProjectSubmissions from "./pages/TeacherDashboard/ProjectSubmissions";
 import HelpRequests from "./pages/TeacherProfileViewer/HelpRequests";
 import TeacherProfileView from "./pages/TeacherProfileViewer/TeacherProfileView";
+import StudentProfiles from "./pages/TeacherDashboard/StudentProfiles";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/studentdashboard" element={<StudentDashboard />} />
         <Route path="/teacherdashboard" element={<TeacherDashboard />} />
+        <Route path="/studentprofiles" element={<StudentProfiles />} />
+
         <Route path="/instructions" element={<Instructions />} />
         <Route path="/learningobjectives" element={<LearningObjectives />} />
         <Route path="/makeproject" element={<MakeProject />} />
