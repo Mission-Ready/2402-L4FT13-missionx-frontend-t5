@@ -1,5 +1,4 @@
 import styles from "./Hero.module.css";
-import { Button } from "react-bootstrap";
 
 function Hero() {
   return (
@@ -28,7 +27,6 @@ function Hero() {
                 *Basic subscription includes <br />
                 the first 15 projects free of charge.
               </p>
-              <Button variant="primary">Primary</Button>{" "}
             </div>
           </div>
         </div>

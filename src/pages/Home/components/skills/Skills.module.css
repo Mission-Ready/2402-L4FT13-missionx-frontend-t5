@@ -1,0 +1,45 @@
+.section_margin {
+  margin: 0 4rem;
+}
+
+.skills_section {
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills_text_container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.skills_wrapper p {
+  font-family: var(--font-base);
+  font-size: 30px;
+  font-weight: 700;
+  color: #6c6c6c;
+}
+
+.section_padding {
+  padding: 0 6rem;
+}
+
+.skills_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.2rem; */
+}
+
+.skills_row div {
+  /* flex: 1; */
+  max-width: 550px;
+  min-width: 205px;
+  /* margin: 1rem; */
+  margin: 1rem 2.1rem;
+}
