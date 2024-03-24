@@ -9,6 +9,7 @@ import logo from "../assets/NavBar/LevelUpWorks-white.png";
 import avatar from "../assets/NavBar/Avatar-white.png";
 import flag1 from "../assets/NavBar/MaoriFlag.png";
 import flag2 from "../assets/NavBar/NZFlag.png";
+import "../index.css";
 
 const Menu = () => (
   <>
