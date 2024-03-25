@@ -78,18 +78,21 @@
 
 .toggle_content_title {
   /* border: 1px solid red; */
-  width: 40rem;
+  width: 100%;
+  height: 25%;
   margin: 0 2rem;
+
+  /* font-size: 2px; */
   /* height: 100%; */
 }
 .faq_bullets {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  width: 100em;
+  width: 100%;
   margin: 0 2rem;
-
-  /* white-space: pre; */
+  /* border: 1px solid lime; */
+  white-space: pre;
 }
 
 .faq_bullets_text_wrapper {
@@ -131,6 +134,7 @@
   color: #606060;
   text-transform: uppercase;
   font-size: 1rem;
+  white-space: pre-wrap;
 }
 
 .faq_sub_content {
@@ -141,6 +145,11 @@
   text-align: left;
   margin-left: 2.75rem;
   margin-top: -0.4rem;
+  /* white-space: nowrap; */
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+  /* display: block; */
+  white-space: pre-wrap;
 }
 
 @keyframes fadeIn {
@@ -158,14 +167,72 @@
   }
 }
 
-@media screen and (max-width: 1174px) {
-  /* .toggleContent {
-    height: 790px;
+/* @media screen and (max-width: 1142px) {
+  .toggleContent {
+    width: 150%;
+  }
+} */
+
+@media screen and (max-width: 842px) {
+  .faq_title {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  .faq_subtitle {
+    font-size: 15px;
+    font-family: var(--font-alt);
+    white-space: pre-wrap;
+    /* color: red; */
+  }
+
+  /* .toggle_content_title {
+    height: 20%;
   } */
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 711px) {
   .toggleContent {
-    height: 1020px;
+    height: 820px;
+    /* background: red; */
   }
 }
+@media screen and (max-width: 633px) {
+  .toggle_content_title {
+    height: 40%;
+  }
+
+  .toggleContent {
+    height: 890px;
+    /* background: blue; */
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .toggle_content_title {
+    height: 40%;
+  }
+
+  .toggleContent {
+    height: 1020px;
+    /* background: pink; */
+  }
+}
+
+@media screen and (max-width: 537px) {
+  .toggle_content_title {
+    height: 20%;
+  }
+
+  .toggleContent {
+    height: 1180px;
+    /* background: green; */
+  }
+}
+
+/* @media screen and (max-width: 640px) {
+  .toggle_content_title {
+    height: 30%;
+    color: red;
+    width: 100%;
+  }
+} */

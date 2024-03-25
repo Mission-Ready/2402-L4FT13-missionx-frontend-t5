@@ -92,7 +92,7 @@ function Faq() {
       heading4: "Fourth industrial revolution ",
       heading4SubContent:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iste neque ea quasi distinctio eligendi magnam perspiciatis quis hic consequuntur dignissimos, aliquid temporibus voluptatem cupiditate,",
-      heading5: "PARTICIPATION AND COLLABORATION",
+      heading5: `PARTICIPATION AND   COLLABORATION`,
       heading5SubContent:
         "The programme encourages students to be involved in communities, such as family, whānau, school, and contribute and make connections with other people",
     },
@@ -176,13 +176,21 @@ function Faq() {
                     <p className={styles.faq_sub_content}>
                       {heading4SubContent}
                     </p>
-                    <div className={styles.faq_bullets_text_wrapper}>
-                      <img src={star} alt="" />
-                      <h2 className={styles.faq_heading}>{heading5}</h2>
-                    </div>
-                    <p className={styles.faq_sub_content}>
-                      {heading5SubContent}
-                    </p>
+                    {toggled === "faq-2" ? (
+                      <div></div>
+                    ) : (
+                      <div className={styles.faq_bullets_text_wrapper}>
+                        <img src={star} alt="" />
+                        <h2 className={styles.faq_heading}>{heading5}</h2>
+                      </div>
+                    )}
+                    {toggled === "faq-2" ? (
+                      <p></p>
+                    ) : (
+                      <p className={styles.faq_sub_content}>
+                        {heading5SubContent}
+                      </p>
+                    )}
                   </div>
 
                   {/* <div className={styles.faq_bullets}>
