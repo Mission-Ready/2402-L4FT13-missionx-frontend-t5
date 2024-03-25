@@ -13,7 +13,7 @@
 
 .level_up_footer_links {
   display: grid;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   gap: 3.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
