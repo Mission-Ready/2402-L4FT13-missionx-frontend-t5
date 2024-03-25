@@ -10,6 +10,8 @@ import avatar from "../assets/NavBar/Avatar-white.png";
 import flag1 from "../assets/NavBar/MaoriFlag.png";
 import flag2 from "../assets/NavBar/NZFlag.png";
 import "../index.css";
+import LoginSignUpModal from "../pages/Home/components/LoginSignup/LoginSignUpModal";
+import SignUpModal from "../pages/Home/components/LoginSignup/SignUpModal";
 
 const Menu = () => (
   <>
@@ -49,10 +51,13 @@ function HomeNavbar() {
           <div className={styles.signup_container}>
             <div className={styles.signup_wrapper}>
               <img src={avatar} className={styles.avatar} alt="" />
-              <a href="">Register</a>
-              <span className={styles.divider}>|</span>
+              {/* <a href="">Register</a> */}
+              <LoginSignUpModal />
 
-              <a href="">Signup</a>
+              <span className={styles.divider}>|</span>
+              <SignUpModal text="Sign Up" />
+
+              {/* <a href="">Signup</a> */}
               {/* <a className={styles.register}>Register</a>
               <a className={styles.login}>Login</a> */}
             </div>
