@@ -92,7 +92,7 @@ function Faq() {
       heading4: "Fourth industrial revolution ",
       heading4SubContent:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iste neque ea quasi distinctio eligendi magnam perspiciatis quis hic consequuntur dignissimos, aliquid temporibus voluptatem cupiditate,",
-      heading5: `PARTICIPATION AND   COLLABORATION`,
+      heading5: `PARTICIPATION AND    COLLABORATION`,
       heading5SubContent:
         "The programme encourages students to be involved in communities, such as family, whānau, school, and contribute and make connections with other people",
     },
