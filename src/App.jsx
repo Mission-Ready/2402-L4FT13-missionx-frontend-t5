@@ -8,8 +8,7 @@ import Instructions from "./pages/StudentDashboard/Instructions";
 import LearningObjectives from "./pages/StudentDashboard/LearningObjectives";
 import MakeProject from "./pages/StudentDashboard/MakeProject";
 import VideoTutorial from "./pages/StudentDashboard/VideoTutorial";
-import Login from "./pages/LoginSignUp/Login";
-import Signup from "./pages/LoginSignUp/Signup";
+
 import ProjectLibrary from "./pages/ProjectLibrary/ProjectLibrary";
 import StudentProfileViewer from "./pages/StudentProfileViewer/StudentProfileViewer";
 import SubmitProject from "./pages/StudentDashboard/SubmitProject";
@@ -31,8 +30,7 @@ function App() {
         <Route path="/learningobjectives" element={<LearningObjectives />} />
         <Route path="/makeproject" element={<MakeProject />} />
         <Route path="/videotutorial" element={<VideoTutorial />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+
         <Route path="/projectlibrary" element={<ProjectLibrary />} />
         <Route
           path="/studentprofileviewer"

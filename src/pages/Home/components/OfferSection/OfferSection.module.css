@@ -1,0 +1,198 @@
+.section_margin {
+  margin: 0 4rem;
+}
+
+section {
+  display: flex;
+  /* border: 1px solid orange; */
+}
+
+.levelup_offer {
+  /* border: 1px solid lime; */
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 700px;
+}
+
+.levelup_what_we_offer_container {
+  margin: 2.5rem 0;
+  margin-left: 10px;
+}
+
+.levelup_what_we_offer_projects_container {
+  /* border: 1px solid orange; */
+}
+
+.levelup_what_we_offer_heading {
+  font-family: var(--font-base);
+  color: #6c6c6c;
+  font-size: 42px;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.levelup_what_we_offer_container p {
+  font-family: var(--font-alt);
+  font-size: 20px;
+}
+
+.levelup_student_projects_heading {
+  font-family: var(--font-base);
+  color: #6c6c6c;
+  font-size: 30px;
+}
+
+.levelup_student_tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+}
+
+.levelup_student_tiles div {
+  max-width: 150px;
+  min-width: 125px;
+  flex: 1;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level_up_slider_container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 568px;
+  /* margin-right: 6.25rem; */
+  max-width: 700px;
+  margin-left: 20px;
+  margin-left: -65px;
+  margin-top: 48px;
+
+  /* overflow: hidden; */
+}
+
+.levelup_offer_background_image {
+  height: 493px;
+  width: 100%;
+  /* border-radius: 1rem; */
+  background-size: cover;
+  transition-duration: 500ms;
+  margin-left: 5.6rem;
+
+  /* border: 1px solid green; */
+}
+
+.dots_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dots {
+  cursor: pointer;
+  font-size: 1.5rem;
+  /* padding: 2rem; */
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  color: #707070;
+  display: flex;
+}
+
+.dots_opacity {
+  opacity: 0.3;
+  outline: black;
+
+  /* border: 1px solid #707070; */
+}
+
+.dots_opacity svg {
+  fill: #d21515;
+}
+
+@media screen and (max-width: 1720px) {
+  .level_up_slider_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 568px;
+    /* margin-right: 6.25rem; */
+    max-width: 700px;
+    margin-left: 20px;
+    margin-left: -65px;
+    margin-top: 0px;
+    /* overflow: hidden;
+
+    /* overflow: hidden; */
+  }
+  .levelup_offer_background_image {
+    height: 382px;
+    width: 630px;
+    /* border-radius: 1rem; */
+    background-size: cover;
+    transition-duration: 500ms;
+    margin-left: 4.6rem;
+    /* border: 1px solid green; */
+    margin-top: 126px;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .levelup_offer_background_image {
+    height: 349px;
+    width: 558px;
+
+    /* border-radius: 1rem; */
+    background-size: cover;
+    transition-duration: 500ms;
+    margin-left: -0.4rem;
+    /* border: 1px solid green; */
+    margin-top: 126px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .levelup_student_tiles div {
+    max-width: 150px;
+    min-width: 165px;
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .levelup_student_tiles div {
+    max-width: 150px;
+    min-width: 180px;
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    flex-direction: column;
+  }
+
+  .level_up_slider_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 568px;
+    /* margin-right: 6.25rem; */
+    max-width: 700px;
+    margin-left: 20px;
+    margin-left: 64px;
+    margin-top: 0px;
+  }
+}
