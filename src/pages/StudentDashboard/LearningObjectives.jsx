@@ -1,7 +1,7 @@
 import React from "react";
 
 function LearningObjectives() {
-  return <div>LearningObjectives</div>;
+  return <div>Learning Objectives</div>;
 }
 
 export default LearningObjectives;
