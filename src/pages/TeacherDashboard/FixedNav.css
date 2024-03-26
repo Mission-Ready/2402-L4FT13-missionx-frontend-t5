@@ -1,0 +1,48 @@
+.nav-bar {
+    width: 60px;
+    height: 100vh;
+    background-color: #00aaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .play,
+  .add {
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 20px;
+    background-color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  .navbarVert.expanded {
+    width: 250px;
+  }

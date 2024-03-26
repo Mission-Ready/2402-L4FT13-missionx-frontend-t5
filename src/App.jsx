@@ -16,6 +16,7 @@ import ProjectSubmissions from "./pages/TeacherDashboard/ProjectSubmissions";
 import HelpRequests from "./pages/TeacherProfileViewer/HelpRequests";
 import TeacherProfileView from "./pages/TeacherProfileViewer/TeacherProfileView";
 import StudentProfiles from "./pages/TeacherDashboard/StudentProfiles";
+import ProgressTracker from "./pages/TeacherDashboard/ProgressTracker"; 
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/submitproject" element={<SubmitProject />} />
         <Route path="/helprequests" element={<HelpRequests />} />
         <Route path="/teacherprofileviewer" element={<TeacherProfileView />} />
+        <Route path="/progresstracker" element={<ProgressTracker />}/>
       </Routes>
     </>
   );
