@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.instructions-background {
+  margin-top: 0px;
+  margin-left: 236px;
+  width: 1571px;
+  background-color: #ffffff;
+}
+
+.instructions-img {
+  top: 324px;
+  left: 586px;
+  width: 931px;
+  height: 244px;
+  background: transparent;
+  opacity: 1;
+}

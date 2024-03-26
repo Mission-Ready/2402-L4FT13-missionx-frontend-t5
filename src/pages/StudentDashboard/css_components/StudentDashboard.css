@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+.body {
+  box-sizing: border-box;
+  background-color: aqua;
+  padding: none;
+  border: none;
+
+  font-family: Nunito;
+}
+
+.student-dashboard-navbar {
+  align-items: center;
+  align-content: center;
+
+  width: 236px;
+  height: 957px;
+  background: #43c0f6;
+  opacity: 100%;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: white;
+}
+
+.levelupworkslogo-blue {
+  top: 0px;
+  left: 38px;
+  width: 146px;
+  height: 60px;
+  background: transparent;
+}
+
+.student-navbar-image {
+  align-items: center;
+  top: 93px;
+  left: 79px;
+  width: 79px;
+  height: 79px;
+  background: transparent;
+}
