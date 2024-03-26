@@ -88,10 +88,13 @@ function HomeNavbar() {
                 >
                   <div className={styles.signup_wrapper}>
                     <img src={avatar} className={styles.avatar} alt="" />
-                    <a href="">Register</a>
-                    <span className={styles.divider}>|</span>
+                    <div className={styles.mobile_menu_buttons}>
+                      <LoginSignUpModal />
 
-                    <a href="">Signup</a>
+                      <span className={styles.divider}>|</span>
+
+                      <SignUpModal text="Sign Up" />
+                    </div>
                   </div>
                 </div>
               </div>

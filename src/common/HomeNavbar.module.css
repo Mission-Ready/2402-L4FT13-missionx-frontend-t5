@@ -30,10 +30,6 @@
   height: 55px;
 }
 
-.levelup_navbar_links_container {
-  /* border: 1px solid lime; */
-}
-
 .levelup_links {
   /* border: 1px solid hotpink; */
   display: flex;
@@ -75,12 +71,6 @@
 .avatar {
   width: 24px;
   height: 24px;
-}
-
-.signup_container {
-  /* display: flex;
-  align-items: flex-end; */
-  /* justify-content: flex-end; */
 }
 
 .signup_wrapper {
@@ -192,6 +182,38 @@
 }
 
 @media screen and (max-width: 1020px) {
+  .levelup_navbar_menu_container_links_sign.signup_wrapper.modal_button {
+    color: red !important;
+    /* text-transform: capitalize;
+    margin-left: 20px; */
+  }
+
+  .mobile_menu_buttons {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: ceenter;
+    justify-content: center;
+    margin-left: 20px;
+    position: relative;
+    gap: 1rem;
+    color: red;
+    left: -42px;
+    margin-top: 11px;
+  }
+
+  .mobile_menu_buttons .modal_button {
+    color: red;
+  }
+
+  .mobile_menu_modal_button {
+    color: red !important;
+  }
+
+  .mobile_menu_modal .modal_button {
+    /* border: 1px solid red; */
+    color: red;
+  }
   .levelup_navbar_links_container {
     display: none;
   }

@@ -14,7 +14,7 @@ function LoginSignUpModal() {
 
   return (
     <div>
-      <button className={styles.modal_button} onClick={onOpenModal}>
+      <button className={`${styles.modal_button}`} onClick={onOpenModal}>
         Register
       </button>
 

@@ -156,3 +156,37 @@
   cursor: pointer;
   border-bottom: 3px solid #43c0f6;
 }
+
+@media screen and (max-width: 1020px) {
+  /* .mobile_menu_modal_button {
+    color: red !important;
+  } */
+  /* text-transform: capitalize;
+    margin-left: 20px; */
+  .mobile_menu_button {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form_section {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* gap: 30px; */
+    overflow: hidden;
+  }
+
+  .container::after {
+    display: none;
+  }
+
+  .container {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+  }
+
+  .container:last-child {
+    border: none;
+  }
+}
