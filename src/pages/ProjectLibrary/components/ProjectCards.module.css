@@ -1,0 +1,34 @@
+/* ======== Card Component - Style ========*/
+/* Styling Main Card Div */
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+/* Image DIV Style */
+.card {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    text-align: center;
+}
+/* Title Style */
+.card h3 {
+    margin: 5px;
+}
+/* Card Info Text Style */
+.cardInfo {
+    display: flex;
+    /* background-color: pink; */
+    justify-content: center;
+}
+.cardInfo div{
+    display: flex;
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 5px 50px;
+    /* font-size: 14px; */
+}
+.lvl {
+    border-right: 3px solid #767676;
+}
+

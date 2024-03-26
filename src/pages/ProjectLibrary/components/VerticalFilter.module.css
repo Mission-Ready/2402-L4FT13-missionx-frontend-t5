@@ -1,0 +1,22 @@
+/* ======== Vertical Button Filters Component - Style ========*/
+/* Styling Main Vertical Div */
+.filter {
+    padding: 15px;
+    /* width: 15%; */
+}
+
+.filterTxt {
+    /* margin: 20px 0; */
+    padding: 10px 0;
+    border-bottom: 1px solid #767676;
+}
+
+.filterGroup {
+    padding: 15px 0 0 0 ;
+}
+
+/* input {
+    background: blue;
+} */
+
+
