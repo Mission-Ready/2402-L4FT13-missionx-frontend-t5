@@ -1,0 +1,55 @@
+/* ======== Horizontal Button Filters Component - Style ========*/
+/* Styling Main Horizontal Div */
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 100px 0 0 ; */
+    /* margin: 0 100px ; */
+}
+/* Styling the Active / Not Active Buttons */
+.btn {
+    background-color: rgb(212, 210, 210);
+    font-weight: 700;
+    color: #767676;
+    padding: 5px 15px;
+    /* border-radius: 5px; */
+    border: 1px solid #767676;
+}
+.btnActive {
+    background-color: #43c0f6;
+    color: white;
+}
+/* Section to Style the LEVEL FILTERS COMPONENTS */
+.beginnerBtn {
+    border-radius: 10px 0 0 10px;
+}
+.advancedBtn {
+    border-radius: 0 10px 10px 0;
+}
+/* Section to Style the SHOW FILTERS COMPONENTS */
+.fiveBtn {
+    border-radius: 10px 0 0 10px;
+}
+.allBtn {
+    border-radius: 0 10px 10px 0;
+}
+/* Styling the SHOW word */
+span{
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
