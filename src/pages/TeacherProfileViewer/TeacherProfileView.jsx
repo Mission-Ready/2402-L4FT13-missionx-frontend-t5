@@ -22,7 +22,7 @@ function TeacherProfileView() {
         {/* Right Box */}
         <div className={styles.infoBox}>
           <div className={styles.profileCard}>
-            <h2>Jasmina Salvador</h2>
+            <h2 className={styles.teacherName}>Jasmina Salvador</h2>
             <p className={styles.profileDetails}>School</p>
             <p className={styles.profileDetails}>Course Purchased</p>
             <p className={styles.profileDetails}>Date Of Birth</p>

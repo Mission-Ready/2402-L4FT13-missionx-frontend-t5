@@ -77,7 +77,7 @@
 }
 
 /* Heading */
-h2 {
+.teacherName {
     font-size: 60px;
     text-align: center;
     color: #707070;
