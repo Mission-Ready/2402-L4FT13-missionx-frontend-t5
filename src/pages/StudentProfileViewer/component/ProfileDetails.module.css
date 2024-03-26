@@ -1,0 +1,51 @@
+ 
+ .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    /* you can use repeat(3,1fr) to repeat the same size */
+    grid-template-rows: repeat(10, 1fr);    
+    background-color: white;
+    /* align-items: center; */
+    justify-content: center;
+        /* gap: 50px; */
+    column-gap: 10px;
+    row-gap: 10px;
+    /* padding: 30px; */
+    border: 1px solid white;
+    border-radius: 30px;
+    /* height: 500px; */
+}
+
+.gridHeader{
+    display: flex;
+    /* background-color: cornflowerblue; */
+    /* height: 100px; */
+    /* height: 100px; */
+    grid-column: 1 / -1;
+    grid-row: 1/4;
+    align-items: center;
+    justify-content: center
+}
+.gridLabel{
+    display: flex;
+    /* background-color:coral; */
+    grid-column: 1/1;
+    margin: 0 50px 0 50px;
+    font-weight: 700;
+    color: #707070;
+    align-items: center;
+    /* justify-content: center */
+}
+.gridText{
+    /* background-color: purple; */
+    display: flex;
+    grid-column: 2/2;
+    margin: 0 50px 0 50px;
+    color: #767676;
+    /* justify-content: center; */
+    align-items: center;
+} 
+
+h2 {
+    font-size: 40px;
+}

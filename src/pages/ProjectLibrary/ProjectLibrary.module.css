@@ -1,0 +1,62 @@
+/* ======== Project Library Page - Style ========*/
+
+/* ======== Container ========*/
+.gridContainer {
+    display: grid;
+    grid-template-columns: 0.4fr 2fr ;  
+    grid-template-rows: 1fr;    
+    /* background-color: darkblue; */
+    /* align-items: center; */
+    justify-content: center;
+    /* gap: 50px; */
+    column-gap: 10px;
+    row-gap: 10px;
+    /* padding: 30px; */
+}
+/* ======== Header Container ========*/
+.gridHeader{
+    background-color: cornflowerblue;
+    /* height: 100px; */
+    height: 100px;
+    grid-column: 1 / -1;      
+}
+/* ======== Second Header Container ========*/
+.gridSecondHeader{
+    /* background-color:coral; */
+    grid-column: 2/2;
+    margin: 0 50px 0 0;
+}
+/* ======== Vertical Filters Container ========*/
+.gridVerticalFilter{
+    /* background-color: purple; */
+    grid-row: 3/5;
+    /* grid-column: 3 / 4;     */
+    margin: 0 0 0 50px;
+}
+/* ======== Horizontal Filters Container ========*/
+.gridHorizontalFilter{
+    /* background-color: brown; */
+    grid-column: 2/2;
+    margin: 0 50px 0 0;
+}
+/* ======== Card Container ========*/
+.gridCard{
+    /* background-color: lightgreen; */
+    grid-column: 2/2;
+    margin: 0 50px 0 0;
+}
+/* ======== Button Container ========*/
+.gridButton{
+    /* background-color: yellow; */
+    grid-column: 2/2;
+    /* grid-row: 2/2; */
+    /* margin: 100px 0; */
+    margin: 100px 50px 100px 0;
+    
+}
+/* ======== Footer Container ========*/
+.gridFooter{
+    background-color: orange;
+    height: 100px;
+    grid-column: 1/-1;
+}
