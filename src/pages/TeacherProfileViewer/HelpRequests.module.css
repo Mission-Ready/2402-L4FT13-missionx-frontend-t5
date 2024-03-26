@@ -1,0 +1,70 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navBar {
+    background-color: #FFFFFF;
+    height: 62px;
+}
+
+/* Sidebar Styles */
+.sideBar {
+    position: absolute;
+    width: 236px;
+    height: 93vh;
+    background-color: #43c0f6;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Active Sidebar State */
+.isActive {
+    width: 118px;
+}
+
+/* Main Container */
+.bigContainer {
+    width: 100%;
+    height: 90vh;
+    background-color: #B2E4FA;
+}
+
+/* Nested Smaller Container */
+.smallerContainer {
+    position: absolute;
+    top: 109px;
+    left: 266px;
+    width: 1554px;
+    height: 76vh;
+    background: #cee8f3;
+    border-radius: 30px;
+}
+
+/* Title within Smaller Container */
+.helpRequestsTitle {
+    position: absolute;
+    top: 187px;
+    left: 351px;
+    width: 213px;
+    height: 34px;
+    background: #cee8f3;
+    color: #6C6C6C;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #707070;
+    font-weight: bold;
+}
