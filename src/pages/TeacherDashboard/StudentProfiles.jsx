@@ -1,5 +1,5 @@
 
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 import NavbarTop from "./NavbarTop";
 import FixedNav from "./FixedNav";
 import Students from "./progress";
