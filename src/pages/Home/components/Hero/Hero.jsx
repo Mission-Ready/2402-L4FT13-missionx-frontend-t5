@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import SignUpButtonModal from "./SignUpButtonModal";
 
 function Hero() {
   return (
@@ -20,9 +21,7 @@ function Hero() {
           </div>
           <div>
             <div className={styles.levelup_sign_up_button_wrapper}>
-              <button type="button" className={styles.sign_up_button}>
-                Sign Up
-              </button>
+              <SignUpButtonModal />
               <p className={styles.condition_text}>
                 *Basic subscription includes <br />
                 the first 15 projects free of charge.

@@ -1,6 +1,6 @@
-import React from "react";
 import styles from "./Cta.module.css";
 import classroom from "../../../../assets/Home/classroom.png";
+import CtaModal from "./CtaModal";
 
 function CTA() {
   return (
@@ -21,9 +21,7 @@ function CTA() {
           <button type="button" className={styles.enquire_now_button}>
             Enquire Now
           </button>
-          <button type="button" className={styles.level_up_cta_sign_up_button}>
-            Sign Up
-          </button>
+          <CtaModal />
         </div>
       </div>
     </section>

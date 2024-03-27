@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import star from "../../../../assets/Home/star.png";
 import styles from "./Faq.module.css";
 
@@ -106,19 +106,18 @@ function Faq() {
         </div>
       </div>
       <div className={styles.button_wrapper}>
-        {data.map(({ title, index, id }) => {
+        {data.map(({ title, id }, index) => {
           return (
-            <>
+            <div key={index}>
               <button
                 onClick={() => setToggled(id)}
-                key={index}
                 className={`${styles.faq_button} ${
                   toggled === id ? styles.active : ""
                 }`}
               >
                 {title}
               </button>
-            </>
+            </div>
           );
         })}
       </div>
@@ -139,7 +138,7 @@ function Faq() {
           heading5SubContent,
         }) => {
           return (
-            <>
+            <React.Fragment key={id}>
               {toggled === id ? (
                 <div className={styles.toggleContent}>
                   <div className={styles.toggle_content_title}>
@@ -192,17 +191,9 @@ function Faq() {
                       </p>
                     )}
                   </div>
-
-                  {/* <div className={styles.faq_bullets}>
-                    <div className={styles.faq_bullets_text_wrapper}>
-                        <h2 className={styles.faq_heading}>{heading1}</h2>
-
-                        <img src={star} alt="" />
-                    </div>
-                  </div> */}
                 </div>
               ) : null}
-            </>
+            </React.Fragment>
           );
         }
       )}

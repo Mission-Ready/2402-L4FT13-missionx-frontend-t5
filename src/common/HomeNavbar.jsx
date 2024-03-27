@@ -12,18 +12,19 @@ import flag2 from "../assets/NavBar/NZFlag.png";
 import "../index.css";
 import LoginSignUpModal from "../pages/Home/components/LoginSignup/LoginSignUpModal";
 import SignUpModal from "../pages/Home/components/LoginSignup/SignUpModal";
+import { Link } from "react-router-dom";
 
 const Menu = () => (
   <>
     <ul className={styles.levelup_links}>
       <li>
-        <a href="#home">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="#Features">Features</a>
+        <Link to="/features">Features</Link>
       </li>
       <li>
-        <a href="#Teachers">Teachers</a>
+        <Link to="/teacherdashboard">Teachers</Link>
       </li>
     </ul>
   </>
