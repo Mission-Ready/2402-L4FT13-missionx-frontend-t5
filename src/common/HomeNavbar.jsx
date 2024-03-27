@@ -18,13 +18,19 @@ const Menu = () => (
   <>
     <ul className={styles.levelup_links}>
       <li>
-        <Link to="/">Home</Link>
+        <Link id={styles.levelup_navbar_link} to="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/features">Features</Link>
+        <Link id={styles.levelup_navbar_link} to="/features">
+          Features
+        </Link>
       </li>
       <li>
-        <Link to="/teacherdashboard">Teachers</Link>
+        <Link id={styles.levelup_navbar_link} to="/teacherdashboard">
+          Teachers
+        </Link>
       </li>
     </ul>
   </>

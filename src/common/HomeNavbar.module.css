@@ -35,6 +35,14 @@
   display: flex;
 }
 
+/* #levelup_navbar_link {
+  color: blue;
+} */
+
+#levelup_navbar_link:hover {
+  color: var(--color-dark-gray);
+  transition: 0.5s ease;
+}
 .levelup_navbar_sign {
   display: flex;
   /* justify-content: flex-end; */
